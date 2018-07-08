@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["src"]
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "env",
+
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": [["env"]]
+    }
+  }
+}
